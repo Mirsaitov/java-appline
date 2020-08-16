@@ -1,10 +1,13 @@
+import java.util.Scanner;
 public class Task14 {
     public static void main(String[] args){
-        String S = "124";
-            System.out.println(S);
+        Scanner input = new Scanner(System.in);
+        System.out.println("Введите число: ");
+        String S = input.nextLine();
+            System.out.println("String: " + S);
         int X = Integer.parseInt (S);
-            System.out.println(X);
+            System.out.println("int: " + X);
         double Y = (double) X;
-            System.out.println(Y);
+            System.out.println("double: " + Y);
     }
     }
