@@ -1,9 +1,12 @@
+import java.util.Scanner;
 public class Task12 {
-    public static void main(String[] args) {
-        String hi = "Hello my world !";
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Введите строковый данные: ");
+        String hi = input.nextLine();
         String hi2 = hi.replaceAll(" ", "");
 
-        System.out.println(hi2);
+        System.out.println("Результат без пробелов: " + hi2);
 
     }
 }
