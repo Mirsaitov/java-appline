@@ -1,15 +1,17 @@
-import java.util.Scanner; // Scanner из пакета java.util
+import java.io.*;
+import java.util.Scanner;
 public class Task16 {
     public static void main(String[] args) {
-        // Создаём объект Scanner
         Scanner input = new Scanner(System.in);
-        // Запрос пользователю на ввод радиуса
-        System.out.print("Введите радиус: ");
-        double radius = input.nextDouble();
-        // Вычисление площади
-        double area = radius * radius * 3.14159;
-        // Отображение результата
-        System.out.println("Площадь круга радиусом "
-                + radius + " равна " + area);
+        System.out.println("Укажите путь к файлу: ");
+        String i  = input.nextLine();;
+        String s;
+        try (BufferedReader br = new BufferedReader(new FileReader(i))){
+        while((s = br.readLine()) != null) {
+            System.out.println(s);
+        }
+        } catch (IOException exc) {
+            System.out.println("Ошибка ввода-вывода: " + exc);
+        }
     }
 }
