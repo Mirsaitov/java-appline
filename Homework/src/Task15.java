@@ -7,7 +7,7 @@ public class Task15 {
         int nums[] = new int[size];
         for (int i = 0; i < size; i++) {
             System.out.println("Введите данные массива" + " №" + (i+1) + ": ");
-            nums[i] = input.nextInt(); // Заполняем массив элементами, введёнными с клавиатуры
+            nums[i] = input.nextInt();
         }
           for (int i = nums.length - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {
