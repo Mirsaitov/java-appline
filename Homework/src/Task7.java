@@ -3,17 +3,17 @@ public class Task7 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Введите число: ");
-        int x = 13;
-        int y = 22;
-        int z = 21;
+        final int X = 13;
+        final int Y = 22;
+        final int Z = 21;
         int number = input.nextInt();;
-        if (number == x) {
+        if (number == X) {
             System.out.println("Данное значение имеется в константах");
         }
-        else if(number == y) {
+        else if(number == Y) {
             System.out.println("Данное значение имеется в константах");
         }
-        else if(number == z) {
+        else if(number == Z) {
             System.out.println("Данное значение имеется в константах");
         }
         else {

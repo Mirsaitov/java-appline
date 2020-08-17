@@ -16,14 +16,12 @@ public class Task10 {
                 }
             }
         System.out.println("Шаг 3: " + "\n" + "Умножаем каждый елемент массива первой строки на 3: ");
-        for(int i = 0; i<= 0; i++)
-        {
-            for(int t = 0; t< size2; t++) {
+        for(int t = 0; t< size2; t++) {
 
-                System.out.println(nums[i][t] + "*3=" + nums[i][t] * 3);
+                System.out.println(nums[0][t] + "*3=" + nums[0][t] * 3);
             }
           }
          }
-        }
+
 
 
