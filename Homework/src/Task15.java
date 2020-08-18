@@ -6,7 +6,7 @@ public class Task15 {
         int size = input.nextInt();
         int nums[] = new int[size];
         for (int a = 0; a < size; a++) {
-            System.out.println("Введите данные массива" + " №" + (i+1) + ": ");
+            System.out.println("Введите данные массива" + " №" + (a+1) + ": ");
             nums[a] = input.nextInt();
         }
           for (int i = size - 1; i > 0; i--) {
