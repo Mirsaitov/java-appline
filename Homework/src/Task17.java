@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Task17 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Укажите путь к файлу .txt: ");
+        System.out.println("Придумайте название файла с расширением .txt: ");
         String inp  = input.nextLine();
         String str;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

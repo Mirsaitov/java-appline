@@ -3,7 +3,7 @@ public class Task9 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-            System.out.print("Шаг 1: " + "\n" + "Введите размер массива: ");
+                System.out.print("Шаг 1: " + "\n" + "Введите размер массива: ");
 
         int size = input.nextInt();
         int nums[] = new int[size];

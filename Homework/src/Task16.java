@@ -13,5 +13,6 @@ public class Task16 {
         } catch (IOException exc) {
             System.out.println("Ошибка ввода-вывода: " + exc);
         }
+
     }
 }
