@@ -1,11 +1,13 @@
+import java.io.*;
 public class test {
-    public static void main(String[] args) {
-        String str = "101101111010101110";
-        int n = 0;
-        for (int i = str.length() - 1, j = 1; i >= 0; i--, j *= 2) {
-            n += (str.charAt(i) - '0') * j;
-        }
-        System.out.println("\"" + str + "\" -> " + n);
+    public static void main(String[] args) throws IOException {
+       double[] Array = {11,5.8,11.1,10.9};
+       double max = Double.MIN_VALUE;
+       for(int i =1 ; i < Array.length; i++){
+           max = Math.max(max,Array[i]);
+
+       }
+System.out.println(max);
     }
 }
 
