@@ -7,13 +7,13 @@ public class Task13 {
         System.out.println("Введите строковый данные №2: ");
         String hi2 = input.nextLine();
             if(hi.length()==hi2.length()) {
-System.out.println("Длина строки " + "'" + hi + "'" + "("+ hi.length() + ")"+ " = длине строки " + "'" + hi2 + "'" + "("+ hi2.length() + ")");
+System.out.println("Обе строки равны");
             }
             else if (hi.length() > hi2.length()) {
-System.out.println("Длина строки " + "'" + hi + "'" + "(" + hi.length() + ")" + " больше, чем длина строки " + "'" + hi2 + "'" + "("+ hi2.length() + ")");
+System.out.println("Строка с наибольшей длиной: " + hi);
         }
-            else if (hi2.length() > hi.length()) {
-System.out.println("Длина строки "  + "'" + hi2 + "'" + "(" + hi2.length() + ")" + " больше, чем длина строки " + "'" + hi + "'" + "("+ hi.length() + ")");
+            else  {
+System.out.println("Строка с наибольшей длиной: "+hi2);
         }
     }
 }
