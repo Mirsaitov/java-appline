@@ -13,7 +13,7 @@ System.out.println("Обе строки равны");
 System.out.println("Строка с наибольшей длиной: " + hi);
         }
             else  {
-System.out.println("Строка с наибольшей длиной: "+hi2);
+System.out.println("Строка с наибольшей длиной: "+ hi2);
         }
     }
 }
