@@ -17,7 +17,7 @@ public class Task17 {
                 fw.write(str);
             } while (str.compareTo("stop") != 0);
         } catch(IOException exc) {
-            System.out.println("Ошибка ввода-вывода: " + exc);
+
         }
     }
 }
